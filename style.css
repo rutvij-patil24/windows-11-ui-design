@@ -12,19 +12,34 @@ body{
     width: 100%;
     background-color: #f3f3f3;
     position: relative;
-    bottom: 0;
+    bottom: 40px;
     display: flex;
     justify-content: center;
     overflow: hidden;
     /* margin-bottom: 5px; */
     padding: 4px 0;
+    /* z-index: 110; */
 }
 .right{
     position: absolute;
     right: 0;
-
 }
+.startmenu{
+    width: 100%;
+    position: absolute;
+    bottom: -650px;
 
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* text-align: center is Equivalent of 
+    display: flex + justify-content: center; */
+
+    transition: all 0.3s ease-in;
+}
+.startmenu img{
+    border-radius: 10px;
+}
 
 
 
