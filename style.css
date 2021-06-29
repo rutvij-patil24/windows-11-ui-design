@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url('media/bg.jpeg'); */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    overflow: hidden;
+}
+.taskbar{
+    width: 100%;
+    background-color: #f3f3f3;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    /* margin-bottom: 5px; */
+    padding: 4px 0;
+}
+.right{
+    position: absolute;
+    right: 0;
+
+}
+
+
+
+
+
+
+
